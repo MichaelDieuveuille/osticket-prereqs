@@ -50,7 +50,10 @@ Once connected to the VM, enable IIS by opening the Control Panel and navigating
 <p>
   
 </p>
-![OS 4](https://github.com/user-attachments/assets/35efba6c-d51f-4c3b-a61f-025d4453e43b)
+
+<img width="496" height="404" alt="Screenshot 2025-11-19 121112" src="https://github.com/user-attachments/assets/816e3f26-1b28-4da7-b6c7-d7f0b851dee1" />
+
+
 <p>
   
 </p>
@@ -58,16 +61,21 @@ https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD
 <p>
   
 </p>
-![OS 5](https://github.com/user-attachments/assets/07e94eb1-e1e4-45da-a45f-e8343d6a0a1b)
+
+<img width="496" height="386" alt="Screenshot 2025-11-19 121130" src="https://github.com/user-attachments/assets/b76af468-6a13-4346-a51a-4d0b7909a924" />
+
 <p>
+
   
 </p>
 Within the same folder, install the Rewrite Module to continue configuring the environment.
 <p>
   
 </p>
-![OS 6](https://github.com/user-attachments/assets/27fe04e7-78d9-4107-8d1a-514b44c39f91)
-![OS 7](https://github.com/user-attachments/assets/9c36ac25-d33b-43f3-8ee5-0e56e37b6a28)
+<img width="1154" height="583" alt="Screenshot 2025-11-19 121139" src="https://github.com/user-attachments/assets/710b5c3a-1d7c-4661-9476-4841e44d8ff7" />
+
+<img width="608" height="445" alt="Screenshot 2025-11-19 121146" src="https://github.com/user-attachments/assets/6441567d-3f2a-4032-92d1-79d6f463fe87" />
+
 <p>
   
 </p>
@@ -75,7 +83,8 @@ Create the directory C:\PHP. Unzip the file PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-
 <p>
   
 </p>
-![OS 8](https://github.com/user-attachments/assets/0f9f02ef-5f8a-4c72-bb6c-0de4a3b14911)
+<img width="477" height="294" alt="Screenshot 2025-11-19 121152" src="https://github.com/user-attachments/assets/c673f63a-bde7-46a5-82f0-9139edfc7560" />
+
 <p>
 
 </p>
