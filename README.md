@@ -47,11 +47,12 @@ https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD
 Within the same folder, install the Rewrite Module to continue configuring the environment.
 
 ![OS 6](https://github.com/user-attachments/assets/27fe04e7-78d9-4107-8d1a-514b44c39f91)
+![OS 7](https://github.com/user-attachments/assets/9c36ac25-d33b-43f3-8ee5-0e56e37b6a28)
 
 Create the directory C:\PHP. Unzip the file PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and extract all its contents into the C:\PHP directory.
 
-![OS 7](https://github.com/user-attachments/assets/9c36ac25-d33b-43f3-8ee5-0e56e37b6a28)
 ![OS 8](https://github.com/user-attachments/assets/0f9f02ef-5f8a-4c72-bb6c-0de4a3b14911)
+
 Install VC_redist.x86.exe from the osTicket Installation folder to ensure the necessary Visual C++ Redistributable components are in place.
 
 
