@@ -51,36 +51,41 @@ Within the same folder, install the Rewrite Module to continue configuring the e
 Create the directory C:\PHP. Unzip the file PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and extract all its contents into the C:\PHP directory.
 
 ![OS 7](https://github.com/user-attachments/assets/9c36ac25-d33b-43f3-8ee5-0e56e37b6a28)
-
+![OS 8](https://github.com/user-attachments/assets/0f9f02ef-5f8a-4c72-bb6c-0de4a3b14911)
 Install VC_redist.x86.exe from the osTicket Installation folder to ensure the necessary Visual C++ Redistributable components are in place.
 
-![OS 8](https://github.com/user-attachments/assets/0f9f02ef-5f8a-4c72-bb6c-0de4a3b14911)
-
-Install MySQL 5.5.62 (mysql-5.5.62-win32.msi) from the osTicket Installation folder to set up the MySQL database server.
 
 <img width="497" height="389" alt="OS 9" src="https://github.com/user-attachments/assets/12a03809-0c79-4e9c-99e3-6c6f3f9bad1b" />
 
-Open IIS Manager as an administrator. Register PHP within IIS by configuring the necessary settings. Afterward, restart the server by selecting Restart in the IIS Manager.
+Install MySQL 5.5.62 (mysql-5.5.62-win32.msi) from the osTicket Installation folder to set up the MySQL database server.
+
 
 <img width="1421" height="749" alt="OS 10" src="https://github.com/user-attachments/assets/58ca00cf-03a5-4bbe-8515-59c08687b600" />
+
+Open IIS Manager as an administrator. Register PHP within IIS by configuring the necessary settings. Afterward, restart the server by selecting Restart in the IIS Manager.
+
+<img width="1422" height="990" alt="OS 11" src="https://github.com/user-attachments/assets/ff306395-09c6-4423-907d-3d56c6a526d3" />
 
 
 From the osTicket-Installation-Files folder, unzip osTicket-v1.15.8.zip and copy the upload folder to C:\inetpub\wwwroot. Then, within C:\inetpub\wwwroot, rename the upload folder to osTicket.
 
-<img width="1422" height="990" alt="OS 11" src="https://github.com/user-attachments/assets/ff306395-09c6-4423-907d-3d56c6a526d3" />
+
+<img width="1427" height="749" alt="OS 12" src="https://github.com/user-attachments/assets/60237f42-38e3-4710-ade7-f934778823cf" />
+
 
 Return to IIS Manager and restart the server. Enable the necessary PHP extensions by navigating to Sites -> Default -> osTicket, then double-click PHP Manager. Select "Disable or enable an extension" and enable php_intl.dll, php_opcache.dll, and php_imap.dll. Afterward, refresh the osTicket web server and verify that the Intl Extension is now enabled.
 
 
-<img width="1427" height="749" alt="OS 12" src="https://github.com/user-attachments/assets/60237f42-38e3-4710-ade7-f934778823cf" />
-
-Navigate to C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php and rename the file to ost-config.php in the same directory (C:\inetpub\wwwroot\osTicket\include).
-
 <img width="1126" height="802" alt="OS 13" src="https://github.com/user-attachments/assets/d799fd46-f04d-48de-a391-4c96b466a01f" />
 
 
-Assign the appropriate permissions to ost-config.php by right-clicking the file and selecting Properties. In the Security tab, disable inheritance, remove all existing permissions, and grant Everyone full access.
+Navigate to C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php and rename the file to ost-config.php in the same directory (C:\inetpub\wwwroot\osTicket\include).
+
 
 <img width="925" height="589" alt="OS 14" src="https://github.com/user-attachments/assets/73ec896e-66f4-449b-af76-10af4c2bb451" />
+
+Assign the appropriate permissions to ost-config.php by right-clicking the file and selecting Properties. In the Security tab, disable inheritance, remove all existing permissions, and grant Everyone full access.
+
+<img width="822" height="936" alt="OS 15" src="https://github.com/user-attachments/assets/ab76aa85-d5ac-4050-b526-f3ab19b95381" />
 
 Finally, proceed with the osTicket setup in your browser by clicking Continue. Assign a name to your helpdesk as desired, and select a default email address to receive customer-submitted ticket notifications. Congrats!
